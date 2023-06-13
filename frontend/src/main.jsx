@@ -17,6 +17,7 @@ import RegisterScreen from './screens/RegisterScreen.jsx';
 import ProfileScreen from './screens/ProfileScreen.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
 
+// create router
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
