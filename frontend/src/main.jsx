@@ -16,6 +16,8 @@ import LoginScreen from './screens/LoginScreen.jsx';
 import RegisterScreen from './screens/RegisterScreen.jsx';
 import ProfileScreen from './screens/ProfileScreen.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
+import ResumeScreen from './screens/ResumeScreen.jsx';
+import PortfolioScreen from './screens/PortfolioScreen.jsx';
 
 // create router
 const router = createBrowserRouter(
@@ -27,6 +29,13 @@ const router = createBrowserRouter(
       <Route path='' element={<PrivateRoute />}>
         <Route path='/profile' element={<ProfileScreen />} />
       </Route>
+      <Route path='' element={<PrivateRoute />}>
+        <Route path='/create-resume' element={<ResumeScreen />} />
+      </Route>
+      <Route path='' element={<PrivateRoute />}>
+        <Route path='/portfolio' element={<PortfolioScreen />} />
+      </Route>
+      
     </Route>
   )
 );

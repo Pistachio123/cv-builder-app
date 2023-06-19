@@ -30,9 +30,19 @@ const Header = () => {
     <header>
       <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
-          <LinkContainer to='/'>
-            <Navbar.Brand>CV Builder</Navbar.Brand>
-          </LinkContainer>
+          {userInfo ? (
+            <>
+            <LinkContainer to='/'>
+              <Navbar.Brand>HomeScreen</Navbar.Brand>
+            </LinkContainer>
+          </>
+          ) : (
+            <>
+              <LinkContainer to='/'>
+                <Navbar.Brand>CV Builder</Navbar.Brand>
+              </LinkContainer>
+            </>
+          )} 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>

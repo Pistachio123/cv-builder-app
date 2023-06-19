@@ -1,4 +1,4 @@
-import Hero from "../components/Hero";
+import Hero from "./Hero.jsx";
 
 const HomeScreen = () => {
     return (
