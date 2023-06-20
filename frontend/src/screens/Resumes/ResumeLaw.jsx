@@ -1,6 +1,6 @@
 //import { Container, Card, Button } from 'react-bootstrap';
 import { Container, Grid } from '@material-ui/core';
-import "C:/Users/domsa/React JS App/bachelor-thesis/frontend/src/CSS/ResumeScreen.css";
+import "C:/Users/domsa/React JS App/cv builder app/frontend/src/CSS/ResumeScreen.css";
 
 const ResumeLaw = () => {
   return (
