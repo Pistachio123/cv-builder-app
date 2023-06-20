@@ -1,12 +1,26 @@
-.cv-page {
+.cs-cv-page {
     background-color: #2fe2ad;
     height: 100vh;
     text-align: center;
     font-size: 32px;
   }
 
-  .cv-page {
-    background-color: #2fe2ad;
+  .art-cv-page {
+    background-color: #13e22f;
+    height: 100vh;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .law-cv-page {
+    background-color: #b3d324;
+    height: 100vh;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .md-cv-page {
+    background-color: #a129a1;
     height: 100vh;
     text-align: center;
     font-size: 32px;

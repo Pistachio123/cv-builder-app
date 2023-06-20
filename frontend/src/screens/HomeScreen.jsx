@@ -1,8 +1,11 @@
-import Hero from "./Hero.jsx";
+import "../CSS/Hero.css";
 
 const HomeScreen = () => {
     return (
-      <Hero/>
+      <div className='home-screen-container'>
+      <h1>Welcome to CV Builder</h1>
+      <p>Create professional resumes effortlessly</p>
+    </div>
     );
 };
 
