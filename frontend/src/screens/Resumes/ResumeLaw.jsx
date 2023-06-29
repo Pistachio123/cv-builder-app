@@ -1,6 +1,6 @@
 //import { Container, Card, Button } from 'react-bootstrap';
 import { Container, Grid } from '@material-ui/core';
-import "C:/Users/domsa/React JS App/cv builder app/frontend/src/CSS/ResumeScreen.css";
+import "../../CSS/ResumeScreen.css";
 
 const ResumeLaw = () => {
   return (
